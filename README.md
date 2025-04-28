@@ -8,7 +8,9 @@ It is an excellent dataset for people who want to try learning techniques of dee
 
 
 
+
 ## 📂 Project Folder Structure
+
 
 ```
 Real-Time-Face-Mask-Detection/
@@ -22,6 +24,7 @@ Real-Time-Face-Mask-Detection/
 ├── requirements.txt              # Python libraries to install
 └── README.md                     # Project documentation
 ```
+
 
 
 
