@@ -7,6 +7,25 @@ The dataset consists of 1376 images with 690 images containing images of people 
 It is an excellent dataset for people who want to try learning techniques of deep learning for face mask detection
 
 
+
+## 📂 Project Folder Structure
+
+```
+Real-Time-Face-Mask-Detection/
+├── static/                       # Static files (CSS, Images if any)
+├── templates/                    # HTML templates for the web interface
+├── App.py                        # Flask application to serve the interface
+├── facemask.py                   # Script for real-time face mask detection
+├── haarcascade_frontalface_default.xml  # Haar Cascade for face detection
+├── live.py                        # Additional real-time detection script
+├── mymodel.h5                    # Trained CNN model for mask detection
+├── requirements.txt              # Python libraries to install
+└── README.md                     # Project documentation
+```
+
+
+
+
 ## How to Use
 
 To use this project on your system, follow these steps:
