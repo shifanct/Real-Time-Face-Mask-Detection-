@@ -14,15 +14,17 @@ It is an excellent dataset for people who want to try learning techniques of dee
 
 ```
 Real-Time-Face-Mask-Detection/
-├── static/                       # Static files (CSS, Images if any)
-├── templates/                    # HTML templates for the web interface
-├── App.py                        # Flask application to serve the interface
-├── facemask.py                   # Script for real-time face mask detection
-├── haarcascade_frontalface_default.xml  # Haar Cascade for face detection
-├── live.py                        # Additional real-time detection script
-├── mymodel.h5                    # Trained CNN model for mask detection
-├── requirements.txt              # Python libraries to install
-└── README.md                     # Project documentation
+├── static/
+│   └── styles.css                 # CSS file for styling the web interface
+├── templates/
+│   └── index.html                  # Main HTML template for the application
+├── App.py                          # Flask application to serve the interface
+├── facemask.py                     # Script for real-time face mask detection
+├── haarcascade_frontalface_default.xml  # Haar Cascade file for face detection
+├── live.py                         # Additional real-time detection script
+├── mymodel.h5                      # Trained CNN model for mask detection
+├── requirements.txt                # Python libraries to install
+└── README.md                       # Project documentation
 ```
 
 
